@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jarugula_Lab06NGTesting]">
+  <test name="TestNG tests(failed)">
+    <classes>
+      <class name="banking.TransactionNGTest">
+        <methods>
+          <include name="testGetStatus"/>
+          <include name="testGetTransactionTime"/>
+          <include name="testSetStatus"/>
+          <include name="testGetTransactionType"/>
+          <include name="setUpMethod"/>
+          <include name="testGetAmount"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownClass"/>
+          <include name="testToString"/>
+        </methods>
+      </class> <!-- banking.TransactionNGTest -->
+    </classes>
+  </test> <!-- TestNG tests(failed) -->
+</suite> <!-- Failed suite [Jarugula_Lab06NGTesting] -->
